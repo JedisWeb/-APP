@@ -4,8 +4,8 @@
 安装包
  SL.apk
 
-![image]（https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-53-655_cn.edu.hbuas.s.png）
-![image]（https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-56-667_cn.edu.hbuas.s.png）
-![image]（https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-58-751_cn.edu.hbuas.s.png）
-![image]（https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-17-00-485_cn.edu.hbuas.s.png）
-![image]（https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-17-02-422_cn.edu.hbuas.s.png）
+![image](https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-53-655_cn.edu.hbuas.s.png)
+![image](https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-56-667_cn.edu.hbuas.s.png)
+![image](https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-16-58-751_cn.edu.hbuas.s.png)
+![image](https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-17-00-485_cn.edu.hbuas.s.png)
+![image](https://github.com/JedisWeb/Lost-and-Found-APP/blob/master/images/Screenshot_2019-07-27-13-17-02-422_cn.edu.hbuas.s.png)
