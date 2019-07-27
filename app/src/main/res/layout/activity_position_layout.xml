@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/position_layout_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/position_layout_floatingActionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        app:fab_addButtonColorNormal="@color/transparent"
+        app:fab_addButtonColorPressed="@color/transparent"
+        app:fab_addButtonPlusIconColor="@color/colorPrimary"
+        app:fab_addButtonSize="mini"
+        app:fab_expandDirection="down">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/position_layout_floatingActionButton_satellite_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/transparent"
+            app:fab_icon="@drawable/satellite_map"
+            app:fab_size="mini" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/position_layout_floatingActionButton_general_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/transparent"
+            app:fab_colorPressed="@color/transparent"
+            app:fab_icon="@drawable/general_map"
+            app:fab_size="mini" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <ImageView
+        android:id="@+id/position_layout_position_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/position_btn" />
+
+</RelativeLayout>

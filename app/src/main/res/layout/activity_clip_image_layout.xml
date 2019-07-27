@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/activity_clip_image_layout_head_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/activity_clip_image_layout_back_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/left_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="移动和绽放"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <!--圆形裁剪框示例
+        app:clipBorderWidth="5dp"     ： 裁剪框边框宽度
+        app:clipType="circle"         ： 裁剪框类型为圆形
+        app:mHorizontalPadding="30dp" ：裁剪框距离左右边距为30dp
+     -->
+    <cn.edu.hbuas.sl.view.ClipViewLayout
+        android:id="@+id/activity_clip_image_layout_clipViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:clipBorderWidth="2dp"
+        app:clipType="circle"
+        app:mHorizontalPadding="30dp" />
+
+    <!--矩形裁剪框示例 -->
+    <!-- <evan.wang.view.ClipViewLayout
+     android:id="@+id/clipViewLayout2"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:visibility="gone"
+     app:clipBorderWidth="2dp"
+     app:clipType="rectangle"
+     app:mHorizontalPadding="30dp" />-->
+
+    <RelativeLayout
+        android:id="@+id/activity_clip_image_layout_bottom_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/activity_clip_image_layout_cancel_textVeiw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/activity_clip_image_layout_select_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="选取"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

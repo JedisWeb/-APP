@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.refreshlayout.BGARefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_layout_refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/home_layout_head_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/home_layout_position_linearLayout"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/home_layout_position_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/position" />
+
+                <TextView
+                    android:id="@+id/home_layout_position_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="湖北文理学院"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/home_layout_position_down_img"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/down" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/home_layout_search_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/home_layout_search_editText"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edit_sharp"
+                    android:cursorVisible="false"
+                    android:hint="搜索物品名称"
+                    android:textSize="16dp"
+                    android:theme="@style/MyEditText" />
+
+                <ImageView
+                    android:id="@+id/home_layout_search_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/search_gray" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <com.youth.banner.Banner
+            android:id="@+id/home_layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ListView
+            android:id="@+id/home_layout_listView"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:divider="@null" />
+    </LinearLayout>
+</cn.bingoogolapple.refreshlayout.BGARefreshLayout>

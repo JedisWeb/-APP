@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">拾乐</string>
+    <string name="promtp">其他</string>
+    <string-array name="goods">
+        <item>其他</item>
+        <item>校园卡</item>
+        <item>体测卡</item>
+        <item>身份证</item>
+        <item>图书</item>
+        <item>钥匙</item>
+        <item>U盘</item>
+        <item>银行卡</item>
+        <item>电子产品</item>
+        <item>手表/手环</item>
+    </string-array>
+    <string name="app_copyright">\u3000\u3000拾乐app版权归湖北文理学院XX团队（团队成员有王芳、胡伟伟、董林杰、杨瑞红、韦佳佳）所有，访问者可将本app提供的内容或服务用于个人学习、研究或欣赏，以及其他非商业性或非盈利性用途，但同时应遵守著作权法及其他相关法律的规定，不得侵犯相关权利人的合法权利。除此以外，将本网站任何内容或服务用于其他用途时，须征得相关权利人的书面许可，并支付报酬。</string>
+    <string name="app_explain">\u3000\u3000拾乐app是一个更方便快捷的失物招领的平台，用来帮用户寻找失物，解决因为丢失重要物品为生活和工作所带来的麻烦，包括寻物启事、招领启事、寻人启事、寻宠启事。</string>
+</resources>
